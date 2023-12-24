@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog | Contact</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.0.2/dist/tailwind.min.css" rel="stylesheet">
+</head>
+
+<body class="bg-gray-200">
+    <header class="bg-white shadow-lg">
+        <div class="container mx-auto px-4 py-6 flex justify-between items-center">
+            <h1 class="text-2xl">Blog</h1>
+            <nav class="space-x-4">
+                <a href="#" class="text-blue-500">Home</a>
+                <a href="#" class="text-blue-500">About</a>
+                <a href="#" class="text-blue-500">Contact</a>
+            </nav>
+        </div>
+    </header>
+    <main class="container mx-auto px-4 py-6">
+        <h2 class="text-4xl font-bold mb-4">Contact Us</h2>
+        <form class="w-full max-w-lg">
+            <div class="flex items-center mb-4">
+                <label for="name" class="w-1/4">Name:</label>
+                <input type="text" id="name" class="border rounded px-2 py-1 w-3/4">
+            </div>
+            <div class="flex items-center mb-4">
+                <label for="email" class="w-1/4">Email:</label>
+                <input type="email" id="email" class="border rounded px-2 py-1 w-3/4">
+            </div>
+            <div class="flex items-center mb-4">
+                <label for="message" class="w-1/4">Message:</label>
+                <textarea id="message" class="border rounded px-2 py-1 w-3/4" rows="4"></textarea>
+            </div>
+            <button class="bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded">Submit</button>
+        </form>
+    </main>
+</body>
+
+</html>
